@@ -1,0 +1,49 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.formDiv {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 800px;
+  background-color: #5eb0d3af;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 5px 6px 0px rgb(0 0 0 / 10%);
+}
+
+input {
+  width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+label {
+  color: #fdfdfd;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  outline: none;
+  width: 100%;
+  margin: 10px 0px;
+  box-shadow: 0 7px #999;
+  border-radius: 4px;
+  background-color: #eeee;
+}
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
